@@ -1,0 +1,18 @@
+body{
+    background-color: #FFE0E0
+}
+
+header{
+    background-color: #EE9080;
+    color: #FFFFFF;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: #FFFFFF;
+    background-color: rgba(240, 144, 128, .55);
+    text-align: center;
+}
