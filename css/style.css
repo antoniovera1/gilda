@@ -20,9 +20,13 @@ nav{
     font-family: Arial;
 }
 
-a{
+.header-a{
     color: #FFFFFF;
     text-decoration: none;
+}
+
+main{
+    margin: 1% 5%;
 }
 
 h2{
@@ -33,6 +37,11 @@ h2{
     text-align: center;
     
     padding: 5px;
+}
+section{
+    display: inline-block;
+    width: 45%;
+    margin: 1%;
 }
 
 figure{
@@ -49,4 +58,8 @@ footer{
     color: #FFFFFF;
     height: 130px;
     text-align: center;
+}
+
+a{
+    color: #FF0000;
 }
