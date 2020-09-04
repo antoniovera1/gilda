@@ -1,6 +1,8 @@
 ```Matlab
 % Reporte 3 - Parte 2
-disp(sprintf('\n\n\n----Tic Tac Toe---\nComputadora VS Jugador \nIntrucciones: Selecciona el número de casilla en la que quieres poner la ´X´, como se muestra:\n1 | 2 | 3 \n4 | 5 | 6 \n7 | 8 | 9'))
+disp(sprintf('\n\n\n----Tic Tac Toe---\nComputadora VS Jugador 
+\nIntrucciones: Selecciona el número de casilla en la que quieres poner la ´X´, 
+como se muestra:\n1 | 2 | 3 \n4 | 5 | 6 \n7 | 8 | 9'))
 gameset = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
 
 for round = 1:9
