@@ -1,4 +1,4 @@
-'''Matlab
+```Matlab
 % Reporte 3 - Parte 1
 disp(sprintf('\n\n\n----Tic Tac Toe---\nComputadora VS Computadora'))
 gameset = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
@@ -58,5 +58,4 @@ for round = 1:9
     end    
 end
 
-
-'''
+```
