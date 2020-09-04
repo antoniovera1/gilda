@@ -1,8 +1,9 @@
 ```Matlab
 % Reporte 3 - Parte 2
 disp(sprintf('\n\n\n----Tic Tac Toe---\nComputadora VS Jugador 
-\nIntrucciones: Selecciona el número de casilla en la que quieres poner la ´X´, 
-como se muestra:\n1 | 2 | 3 \n4 | 5 | 6 \n7 | 8 | 9'))
+    \nIntrucciones: Selecciona el número de casilla en la que quieres poner la ´X´, 
+    como se muestra:\n1 | 2 | 3 \n4 | 5 | 6 \n7 | 8 | 9'))
+    
 gameset = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
 
 for round = 1:9
@@ -42,7 +43,8 @@ for round = 1:9
     % Mostrar el juego en cada ronda
     % ----------
     fprintf('---- Turno %d -----\n\n', round);
-    fprintf('%s | %s | %s\n%s | %s | %s\n%s | %s | %s\n\n', gameset(1, 1), gameset(1, 2), gameset(1, 3), gameset(1, 4), gameset(1, 5), gameset(1, 6), gameset(1, 7), gameset(1, 8), gameset(1, 9));
+    fprintf('%s | %s | %s\n%s | %s | %s\n%s | %s | %s\n\n', gameset(1, 1), gameset(1, 2), gameset(1, 3), 
+            gameset(1, 4), gameset(1, 5), gameset(1, 6), gameset(1, 7), gameset(1, 8), gameset(1, 9));
     
     % ----------
     % Revisar al ganador
