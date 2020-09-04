@@ -1,44 +1,26 @@
 ```Matlab
-% Reporte 3 - Parte 2
-disp(sprintf('\n\n\n----Tic Tac Toe---\nComputadora VS Jugador 
-     \nIntrucciones: Selecciona el número de casilla en la que quieres poner la ´X´, 
-     como se muestra:\n1 | 2 | 3 \n4 | 5 | 6 \n7 | 8 | 9'))
-    
+% Reporte 3 - Parte 1
+disp(sprintf('\n\n\n----Tic Tac Toe---\nComputadora VS Computadora'))
 gameset = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
 
 for round = 1:9
     if mod(round,2) == 0
     % Intercambiar de jugador según la ronda 
         player_symbol = 'O';
-        bot_turn = 1;
     else 
         player_symbol = 'X';
-        bot_turn = 0;
     end
     
     % ----------
     % Asignar valor a las casillas
     % ----------
-    if bot_turn == 1
-        while 1
-            box = randi([1 9],1,1);
-            if gameset(1, box) == ' '
-                gameset(1, box) = player_symbol;
-                break
-            end
-        end
-    else    
-        
-        while 1
-            box=input('¿Dónde quieres poner la X?  ');
-            if gameset(1,box) == ' ';
-                gameset(1,box) = player_symbol;
-                break
-            end
-            disp('Casilla ocupada, elige otra porfavor.')
+    while 1
+        box = randi([1 9],1,1);
+        if gameset(1, box) == ' '
+            gameset(1, box) = player_symbol;
+            break
         end
     end
-    
     % ----------
     % Mostrar el juego en cada ronda
     % ----------
